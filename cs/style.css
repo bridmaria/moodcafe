@@ -1,0 +1,251 @@
+body {
+    background-color: black;
+}
+
+
+.navbar {
+    background-color: #000000;
+    /* Marrón cálido */
+}
+
+.navbar-brand {
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.5rem;
+    color: #8a6240;
+    transition: 0.5s;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #8a6240 !important;
+    transition: 0.5s;
+}
+
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 999;
+}
+
+#navbar.scrolled {
+    background-color: #4e342e !important;
+    /* Marrón oscuro, puedes ajustar el color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    /* Opcional: sombra para más contraste */
+}
+
+
+
+/*-------section 1-------*/
+.banner {
+    background-image: url('../img/fondo4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Se adapta al alto de la pantalla */
+    position: relative;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Mejora el contraste del texto */
+    z-index: 1;
+}
+
+.contenedor-header {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-cafe {
+    background-color: #6f4e37;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-cafe:hover {
+    background-color: #5a3d2b;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+
+/*-------section 2-------*/
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d4b087;
+}
+
+.divider {
+    margin: 0.5rem 0;
+    border: none;
+    border-top: 1px solid #d4b087;
+    width: 50%;
+}
+
+.content-text {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-view-more {
+    border: 1px solid #d4b087;
+    color: #ffffff;
+    background: transparent;
+    padding: 5px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.btn-view-more:hover {
+    background-color: #d4b087;
+    color: #1a1a1a;
+}
+
+.h1 {
+    color: #d4b087;
+}
+
+/*-------section 3-------*/
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #d4b49a;
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+.card-body {
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: #3a2f2f;
+}
+
+.btn-outline-light:hover {
+    background-color: #d4b49a;
+    color: #1a1a1a;
+    border-color: #d4b49a;
+}
+
+.img-fixed {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/*-------section 4-------*/
+.text-accent {
+    color: #d4b49a;
+}
+
+.experience-img {
+    height: 100%;
+    max-height: 420px;
+    object-fit: cover;
+}
+
+/*-------section 5-------*/
+.experience-section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #6b4f4f;
+    margin-bottom: 40px;
+}
+
+.highlight-text {
+    color: #d6a365;
+}
+
+.circle-image {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 250px;
+    height: 250px;
+}
+
+.icon-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-box i {
+    font-size: 40px;
+    color: #d6a365;
+    margin-bottom: 15px;
+}
+
+.icon-box h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b4f4f;
+    margin-bottom: 10px;
+}
+
+.icon-box p {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+/*-------section 6-------*/
+.text-accent {
+    color: #d4b49a;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: #fff;
+    border-color: #d4b49a;
+    box-shadow: none;
+}
+/**/
+.text-accent {
+  color: #d4b49a;
+}
+
+.text-accent:hover {
+  color: #e8cdb4;
+}
